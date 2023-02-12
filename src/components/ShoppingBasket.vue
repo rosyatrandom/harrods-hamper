@@ -49,28 +49,3 @@ const store = useHampersStore()
         </div>
     </Transition>
 </template>
-
-<style scoped>
-.basket-enter-active,
-.basket-leave-active {
-    transition: all 0.5s ease;
-}
-
-.basket-enter-from,
-.basket-leave-to {
-    opacity: 0;
-    transform: translateX(200px);
-}
-
-.basket-item-enter-move,
-.basket-item-enter-active,
-.basket-item-leave-active {
-    transition: all 0.5s ease;
-}
-
-.basket-item-enter-from,
-.basket-item-leave-to {
-    opacity: 0;
-    transform: translateX(200px);
-}
-</style>
